@@ -62,7 +62,8 @@ h1{
    text-align: center;
    background-color: #272831;
    border-radius: 20px;
-   
+   margin-left: 17vw;
+   width: 65vw;
    box-shadow: 2px 2px 20px 1px  rgb(254, 255, 218);
 
 }
