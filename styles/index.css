@@ -7,6 +7,7 @@ img.fotoMinha{
     border-radius: 50%;
     border-color: black;
 }
+
 .imgContainer{
     text-align: center;
 }
@@ -15,7 +16,7 @@ color: aliceblue;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-   height: 1000px;
+   height: 100px;
     background-image: linear-gradient( #3e4266,#2E2F33 80%);
 } 
 
@@ -33,6 +34,9 @@ h1{
 }
 h3{
     text-align: CENTER;
+}
+.card1 .card{
+    background-image: linear-gradient(rgb(247, 126, 126),aliceblue);
 }
 }
 
@@ -69,4 +73,8 @@ h1{
 }
 h3{
     text-align: CENTER;
+}
+
+.card1 .card{
+    background-image: linear-gradient(rgb(247, 126, 126),aliceblue);
 }

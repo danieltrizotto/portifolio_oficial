@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Pokemon</title>
+    <link rel="icon" href="./../assets/favicon-16x16.png">
+    <link rel="stylesheet" href="./../styles/pokedex.css">
+</head>
+
+<body>
+    <main>
+        <h1>Pokedex</h1>
+        <div class="Buscar">
+            <input type="text" id="pokemon-name" placeholder="name/number">
+            <button onclick="buscarPokemon()">Buscar</button>
+        </div>
+        <br><br>
+        <div class="imgPokedex"><img src="./../assets/pokedex.png" alt=""></div>
+        <img id="pokemon-image" src="" alt="Pokémon Image" style="display:none;">
+        <div class="dataPokemon">
+            <span class="nomePoke"></span>
+            <span>-</span>
+            <span class="numero"></span>
+            <br>
+            <span class="tipos"></span>
+        </div>
+        <div class="status">
+            <h3>Status</h3>
+            <span class="hp">HP:</span><br>
+            <span class="ataque">Ataque:</span><br>
+            <span class="defesa">Defesa:</span><br>
+            <span class="velocidade">Velocidade:</span>
+        </div>
+    </main>
+    <script src="./../js/InstaPoke.js"></script>
+</body>
+
+</html>
