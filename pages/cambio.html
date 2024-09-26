@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculdora de moedas</title>
+    <link rel="stylesheet" href="./../styles/cambio.css">
+</head>
+
+<body>
+    <main>
+        <div class="intro">
+            <h1>Calculadora de cambio</h1>
+            <br>
+            <br>
+            <div class="inputValor"><label for="inputValor">Insira seu valor:</label>
+                <input name="inputValor" type="number" class="valorBRL" value="1">
+                <button name="converter" class="btn" type="submit">Converter</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="moedasMundiais">
+                <h2>valores convertidos</h2>
+                <h3>Dolar USD</h3>
+                <span class="dolarValor"></span>
+                <p id="usdPreco" name="usdPreco">Preço Convertido:</p>
+                <h3>Euro EU</h3>
+                <span class="euroValor"></span>
+                <p id="euroPreco" name="euroPreco">Preço Convertido:</p>
+                <h3>YEN </h3>
+                <span class="yenValor"></span>
+                <p id="yenPreco" name="yenPreco">Preço Convertido: </p>
+            </div>
+        </div>
+    </main>
+    <script src="./../js/cambio.js"></script>
+</body>
+
+</html>

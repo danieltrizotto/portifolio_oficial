@@ -1,80 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@166&display=swap');
-@media screen and (min-width:320px) and (max-width:770px){
+@media screen and (min-width:320px) and (max-width:770px) {
 
-img.fotoMinha{
+    img.fotoMinha {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-color: black;
+    }
+
+    .imgContainer {
+        text-align: center;
+    }
+
+    * {
+        color: aliceblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    body {
+        height: 100px;
+        background-image: linear-gradient(#3e4266, #2E2F33 80%);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
+        background-color: #272831;
+        border-radius: 20px;
+
+        box-shadow: 2px 2px 20px 1px rgb(254, 255, 218);
+
+    }
+
+    h3 {
+        text-align: CENTER;
+    }
+
+    .card1 .card {
+        background-image: linear-gradient(rgb(247, 126, 126), aliceblue);
+    }
+}
+
+img.fotoMinha {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border-color: black;
 }
 
-.imgContainer{
-    text-align: center;
-}
-*{
-color: aliceblue;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body{
-   height: 100px;
-    background-image: linear-gradient( #3e4266,#2E2F33 80%);
-} 
-
-h1{
+.imgContainer {
     text-align: center;
 }
 
-.intro{
-   text-align: center;
-   background-color: #272831;
-   border-radius: 20px;
-   
-   box-shadow: 2px 2px 20px 1px  rgb(254, 255, 218);
+* {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(#3e4266, #2E2F33 80%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    background-color: #272831;
+    border-radius: 20px;
+    margin-left: 17vw;
+    width: 65vw;
+    box-shadow: 2px 2px 20px 1px rgb(254, 255, 218);
 
 }
-h3{
+
+h3 {
     text-align: CENTER;
 }
-.card1 .card{
-    background-image: linear-gradient(rgb(247, 126, 126),aliceblue);
+.projetos{
+    display: grid;
+    justify-content:center;
+    gap: 40px;
 }
+.card1 .card {
+    background-image: linear-gradient(rgb(247, 126, 126), aliceblue);
 }
-
-img.fotoMinha{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-color: black;
-}
-.imgContainer{
-    text-align: center;
-}
-*{
-color: aliceblue;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body{
-   height: 1000px;
-    background-image: linear-gradient( #3e4266,#2E2F33 80%);
-} 
-
-h1{
-    text-align: center;
-}
-
-.intro{
-   text-align: center;
-   background-color: #272831;
-   border-radius: 20px;
-   margin-left: 17vw;
-   width: 65vw;
-   box-shadow: 2px 2px 20px 1px  rgb(254, 255, 218);
-
-}
-h3{
-    text-align: CENTER;
-}
-
-.card1 .card{
-    background-image: linear-gradient(rgb(247, 126, 126),aliceblue);
+.card2 .card {
+    background-image: linear-gradient(rgb(144, 126, 247), rgb(8, 17, 26));
 }

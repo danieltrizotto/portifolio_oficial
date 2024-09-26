@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: -2px;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #221f2f;
+    overflow: hidden;
+}
+
+.container {
+    width: 25rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.44);
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+}
+
+.intro input {
+    border-radius: 20px;
+}
+
+.intro button {
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.moedasMundiais {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 55vh;
+    width: 200p;
+    background-color: rgba(124, 100, 231, 0.267);
+}
